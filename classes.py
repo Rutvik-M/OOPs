@@ -3,7 +3,7 @@ class Student:
     age=0
     gender=""
 
-    def get_info(self,name ,age,gender):
+    def get_info(self,name:str,age:int,gender:str):
         self.name=name
         self.age=age
         self.gender =gender
