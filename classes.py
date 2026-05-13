@@ -1,9 +1,7 @@
 class Student:
-    name=""
-    age=0
-    gender=""
+    
 
-    def get_info(self,name:str,age:int,gender:str):
+    def __init__(self,name,age,gender):
         self.name=name
         self.age=age
         self.gender =gender
@@ -13,9 +11,4 @@ class Student:
 
 
 s1=Student()
-s1.get_info()
 s1.display()
-
-s2=Student()
-s2.get_info()
-s2.display()
