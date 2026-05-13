@@ -17,10 +17,10 @@ class Movie:
     def showStatus(self)->None:
         print (f"Movie name : {self.movie_name}")
         print (f"tickets available : {self.total_seats}")
-        print (f"Price epr ticket : {self.ticket_price}")
+        print (f"Price per ticket : {self.ticket_price}")
             
 
-m1=Movie("avengers",15,150)
+m1=Movie()
 m1.showStatus()
-m1.book_ticket(5)
+m1.book_ticket()
 
