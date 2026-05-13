@@ -21,6 +21,6 @@ class Dog(Animal):
     def display(self):
         print (f"my name is {self.name} and age is {self.age}")
 
-dog = Dog("cherry",4,"atlassin")
+dog = Dog()
 dog.display()
 
